@@ -1,3 +1,71 @@
+/* Main */
+
 body {
-	color: red;
+	background: #7FB5DA;
+	font-family: sans-serif;
+}
+
+#container {
+	margin: 20px;
+}
+
+
+/* tabs */
+#tabs {
+	margin: 30px 0 0 0;
+	width: 100%;
+	
+}
+
+#tabs .tab {
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+	color: #4c4c4c;
+	font-size: 16px;
+	border-radius: 3px 3px 0 0;
+	font-weight: bold;
+	padding: 4px 8px;
+
+}
+
+#tabs .tab:hover {
+	background-color: #fff;
+}
+
+.tab {
+	background: #a7cce5;
+}
+
+.tab.active {
+	background-color: #fff;
+}
+
+
+
+
+/* Content */
+
+.tab-content {
+	display: block;
+	clear: both;
+}
+
+#container .tab-content .content {
+	float: left;
+	clear: both;
+	width: 90%;
+	border-radius: 3px;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+	text-align: center;
+}
+
+.content {
+	display: none;
+}
+
+.content.active {
+	display: inline-block;
 }
