@@ -5,6 +5,15 @@ body {
 	font-family: sans-serif;
 }
 
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul {
+	line-height: 1.5;
+}
+
 #container {
 	margin: 20px;
 }
@@ -17,14 +26,14 @@ body {
 	
 }
 
-#tabs .tab {
+.tab {
 	display: inline-block;
 	float: left;
 	margin-right: 5px;
 	color: #4c4c4c;
 	font-size: 16px;
 	border-radius: 3px 3px 0 0;
-	font-weight: bold;
+	font-weight: 500;
 	padding: 4px 8px;
 
 }
@@ -39,6 +48,7 @@ body {
 
 .tab.active {
 	background-color: #fff;
+	font-weight: 800;
 }
 
 
@@ -55,7 +65,7 @@ body {
 	float: left;
 	clear: both;
 	width: 90%;
-	border-radius: 3px;
+	border-radius: 0 3px 3px 3px;
 	padding: 15px;
 	background-color: #fff;
 	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
